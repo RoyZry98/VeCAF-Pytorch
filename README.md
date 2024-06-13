@@ -1,11 +1,8 @@
-# VeCAF: VLM-empowered Collaborative Active Finetuning with Training Objective Awareness
-## Abstract
+# VeCAF: Vision-Language Collaborative Active Finetuning with Training Objective Awareness [**[Arxiv]**](https://arxiv.org/pdf/2401.07853)
 
-Finetuning a pretrained vision model (PVM) is a common technique for learning downstream vision tasks. The conventional finetuning process with the randomly sampled data points results in diminished training efficiency. To address this drawback, we propose a novel approach, VLM-empowered Collaborative Active Finetuning (VeCAF). VeCAF optimizes a parametric data selection model by incorporating the training objective of the model being tuned. Effectively, this guides the PVM towards the performance goal with improved data and computational efficiency. As vision-language models (VLMs) have achieved significant advancements by establishing a robust connection between image and language domains, we exploit the inherent semantic richness of the text embedding space and utilize text embedding of pretrained VLM models to augment PVM image features for better data selection and finetuning. Furthermore, the flexibility of text-domain augmentation gives VeCAF a unique ability to handle out-of-distribution scenarios without external augmented data. Extensive experiments show the leading performance and high efficiency of VeCAF that is superior to baselines in both in-distribution and out-of-distribution image classification tasks. On ImageNet, VeCAF needs up to 3.3× less training batches to reach the target performance and high efficiency of VeCAF that is superior to baselines in both in-distribution and out-of-distribution image classification tasks.  On ImageNet, VeCAF needs up to 3.3x less training batches to reach the target performance compared to full finetuning and achieves 2.8% accuracy improvement over SOTA methods with the same number of batches. 
+Rongyu Zhang*, Zefan Cai*, Huanrui Yang*, Zidong Liu, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Baobao Chang, Yuan Du, Li Du, Shanghang Zhang
+<img src="vecaf.png"/>
 
-[[paper link]](https://arxiv.org/abs/2303.14382)
-
-![overview](overview.png)
 
 ## Installation
 
