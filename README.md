@@ -38,7 +38,7 @@ Our default setting applies the DeiT-Small model pretrained with DINO ([ckpt](ht
 ## Extreact loss of a pre-trained vision model
 
 Before fine-tuning, you need to get the boundary decision information of the vision language model, as addition information for the data selection.
-
+```
 python -m torch.distributed.launch --nproc_per_node=2 --master_port ${seed} --use_env ${deit_dir}/eval.py \
     --clip-grad 2.0 \
     --eval_interval 50 \
@@ -46,7 +46,7 @@ python -m torch.distributed.launch --nproc_per_node=2 --master_port ${seed} --us
     --resume ${PATH to the pre-trained vision model} \
     --epochs 1 \
     --output_dir ${PATH to store the output}
-
+```
 
 
 #### Data Selection
