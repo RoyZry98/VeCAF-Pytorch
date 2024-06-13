@@ -54,7 +54,6 @@ python -m torch.distributed.launch --nproc_per_node=2 --master_port ${seed} --us
 With extracted features, you can select a subset from the dataset with the following command and put single_turn_mmnew.py under ./data_selection/sample_tools/LLaMA2-accessory/demos/ folder for the single call of LLaMA2-accessory.
 
 ```
-
 # For ImageNet:
 CUDA_VISIBLE_DEVICES=0,1 torchrun --nproc-per-node=2 --master_port=29528 ./VeCAF/data_selection/sample_tools/VeCAF_ImageNet.py  --feature_path ${PATH to the extracted feature} --percent ${sampling percentage} --weight_dir ${PATH to the loss.pt} --${normalize/exp/log/sigmoid} True --loop ${number of loop}
 ```
