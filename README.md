@@ -1,6 +1,7 @@
-# VeCAF: Vision-Language Collaborative Active Finetuning with Training Objective Awareness [**[Arxiv]**](https://arxiv.org/pdf/2401.07853)
+# VeCAF: Vision-Language Collaborative Active Finetuning with Training Objective Awareness
+![Python 3.7](https://img.shields.io/badge/Python-3.7-organge)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2401.07853)
 
-Rongyu Zhang*, Zefan Cai*, Huanrui Yang*, Zidong Liu, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Baobao Chang, Yuan Du, Li Du, Shanghang Zhang
 <img src="vecaf.png"/>
 
 
