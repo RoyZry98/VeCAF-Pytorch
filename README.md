@@ -1,4 +1,4 @@
-# VeCAF: Vision-Language Collaborative Active Finetuning with Training Objective Awareness
+# VeCAF: Vision-language Collaborative Active Finetuning with Training Objective Awareness
 ![Python 3.7](https://img.shields.io/badge/Python-3.7-green)
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2401.07853)
 
